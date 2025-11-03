@@ -5,19 +5,15 @@ import News from "../Home/components/News";
 import Provide from "../Services/componentServices/Provide";
 const ServicePage = () => {
   return (
-    <>
-      <div className="bg-sky-100">
-        <Header />
-        <div className="pt-[17%] ">
-          <Provide />
-          <News />
-          <Contact />
-          <Footer />
-
-        </div>
-
+    <div className="bg-sky-100">
+      <Header />
+      <div className="pt-[17%] ">
+        <Provide />
+        <News />
+        <Contact />
+        <Footer />
       </div>
-    </>
+    </div>
   );
 };
 
