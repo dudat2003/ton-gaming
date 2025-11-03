@@ -2,7 +2,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Contact from "../Home/components/Contact";
 import News from "../Home/components/News";
-import Provide from "../Services/componentServices/Provide";
+import Provide from "./ComponentServices/Provide";
 const ServicePage = () => {
   return (
     <div className="bg-sky-100">
